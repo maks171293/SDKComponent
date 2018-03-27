@@ -17,11 +17,6 @@
 
 RCT_EXPORT_MODULE();
 
-- (void)dealloc
-{
-  [HYPRMediate setDelegate: nil];
-}
-
 - (dispatch_queue_t)methodQueue
 {
   return dispatch_get_main_queue();
